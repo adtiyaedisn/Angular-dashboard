@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
+$backgorund-color-dark: #070d18;
+$backgorund-color-light: #0e192d;
+$backgorund-color-lighter: #1c2b47;
+$button-background: #5ddbee;
+$button-color: rgba(93, 219, 238, 1);
+$font-primary: #ffffff;
+$font-secondary: #85859b;
+$font: Inter;
+
+html {
+  padding: 0em 2em 0em 2em;
+}
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+html,
+body {
+  font-family: $font;
+  color: $font-primary;
+  background-color: $backgorund-color-dark;
+}

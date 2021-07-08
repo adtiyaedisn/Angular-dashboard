@@ -1,0 +1,51 @@
+:host {
+  grid-area: content;
+}
+.content-wrapper {
+  padding: 2.5rem 12rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0e192d;
+  grid-area: content;
+  border-radius: 5px;
+}
+.content-wrapper h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+.content-wrapper p {
+  color: #85859b;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+}
+.content-wrapper div {
+  margin-top: 1em;
+  justify-content: space-around;
+  display: flex;
+  background-color: rgba(93, 219, 238, 0.1);
+  border-radius: 5px;
+  padding: 0.5em;
+}
+.content-wrapper div p {
+  padding-left: 0.5em;
+  color: #5ddbee;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}

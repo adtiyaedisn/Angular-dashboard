@@ -1,0 +1,63 @@
+:host {
+  grid-area: events;
+}
+.events-wrapper {
+  grid-area: events;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  grid-auto-flow: row;
+  flex-wrap: wrap;
+}
+
+.events-wrapper > div {
+  border-radius: 50px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1em;
+  background-color: rgba(133, 133, 155, 0.1);
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+.events-wrapper > div img {
+  height: 1em;
+  width: auto;
+  padding-right: 1em;
+}
+.events-wrapper > div p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #85859b;
+}
+
+.events-wrapper > div:nth-of-type(2) {
+  border-radius: 50px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1em;
+  background-color: rgba(133, 133, 155, 0.1);
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+.events-wrapper > div:nth-of-type(2) img {
+  height: 1em;
+  width: auto;
+  padding-right: 1em;
+}
+.events-wrapper > div:nth-of-type(2) p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5ddbee;
+}

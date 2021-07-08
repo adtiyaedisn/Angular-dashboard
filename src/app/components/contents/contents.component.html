@@ -1,0 +1,18 @@
+<div class="content-wrapper">
+  <img src="./assets/peopleicon.png" alt="" srcset="" />
+  <h3>Get Started By Adding Teams & Players To The Tournament</h3>
+  <p>
+    To create events, add teams taking part in this tournament by clicking the
+    “Add teams” button below and add players to these teams. Teams can be
+    removed from the tournament if the team has not yet taken part in any of the
+    events
+  </p>
+
+  <div id="myBtn" (click)="onSave()">
+    <img src="./assets/add.png" alt="" srcset="" />
+    <p>Add Teams</p>
+  </div>
+</div>
+
+<!-- Modal -->
+<app-team-modal [show]="show"></app-team-modal>

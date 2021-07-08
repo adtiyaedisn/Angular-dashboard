@@ -1,0 +1,49 @@
+:host {
+  grid-area: ipl;
+}
+.info-wrapper {
+  grid-area: ipl;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-top: 1.5em;
+}
+.info-wrapper hr {
+  border: 1px solid #44445a;
+}
+
+.info-wrapper > p:nth-of-type(1) {
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+  color: #ffffff;
+}
+
+.info-wrapper > div {
+  display: flex;
+  justify-content: space-between;
+}
+.info-wrapper > div img {
+  width: auto;
+  height: 1em;
+}
+
+.info-wrapper > div > p:nth-of-type(1) {
+  font-family: Inter;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.info-wrapper > p:nth-of-type(2) {
+  font-family: Inter;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #85859b;
+}
+.info-wrapper > p:nth-of-type(2) span {
+  color: #5ddbee;
+}
